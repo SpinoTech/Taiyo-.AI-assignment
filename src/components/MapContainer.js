@@ -21,9 +21,9 @@ export default function Map() {
   const { data: graphdata, isLoading: graphloading, isError: grapherror } = useQuery('graphData', graphData);
 
   if (isLoading || WorldLoading || graphloading) {
-    return <div class="fixed top-0 right-0 h-screen w-screen z-50 flex justify-center items-center">
+    return <div className="fixed top-0 right-0 h-screen w-screen z-50 flex justify-center items-center">
       <div className='absolute'>loading</div>
-    <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-white shadow-[0_0_50px_rgba(8,_112,_184,_0.7)]"></div>
+    <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-white shadow-[0_0_50px_rgba(8,_112,_184,_0.7)]"></div>
  </div>;
   }
 
@@ -41,7 +41,7 @@ export default function Map() {
         {
           data.map((country, index) => {
             return (
-              <Marker position={[country.countryInfo.lat, country.countryInfo.long]} icon={markerIcon}>
+              <Marker position={[country.countryInfo.lat, country.countryInfo.long]} icon={markerIcon} key={index}>
                 <Popup>
                   <PopUpCards name={country.country} active={country.active} recorded={country.cases} death={country.deaths} flag={country.countryInfo.flag} />
                 </Popup>

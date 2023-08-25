@@ -4,6 +4,9 @@ import InputComponent from './InputComponent';
 export default function Card({ detail, updateDetails ,deleteDetails}) {
     const [openEditor, setOpenEditor] = useState(false);
     const [contacts, setContacts] = useState({
+        id: detail.id,
+        first_name:"",
+        last_name:"",
         status: "active"
     })
 
