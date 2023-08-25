@@ -12,11 +12,10 @@ function App() {
     <div className='w-full h-screen flex flex-col bg-[#042f2e] box-border text-white'>
       <Navbar/>
       <div className="w-full h-[calc(100%-4rem)] ">
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Contact />} />
           <Route path="/map" element={<Mappart />} />
-        </Routes> */}
-        <Contact/>
+        </Routes>
       </div>
     </div>
   );
