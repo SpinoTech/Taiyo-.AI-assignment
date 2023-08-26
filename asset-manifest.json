@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SpinoTech/Taiyo-.AI-assignment.git/static/css/main.47fa2607.css",
-    "main.js": "/SpinoTech/Taiyo-.AI-assignment.git/static/js/main.adbf0322.js",
+    "main.js": "/SpinoTech/Taiyo-.AI-assignment.git/static/js/main.dfaeb1ac.js",
     "static/media/loc.png": "/SpinoTech/Taiyo-.AI-assignment.git/static/media/loc.4a5a95ff638593818d3f.png",
     "index.html": "/SpinoTech/Taiyo-.AI-assignment.git/index.html",
     "main.47fa2607.css.map": "/SpinoTech/Taiyo-.AI-assignment.git/static/css/main.47fa2607.css.map",
-    "main.adbf0322.js.map": "/SpinoTech/Taiyo-.AI-assignment.git/static/js/main.adbf0322.js.map"
+    "main.dfaeb1ac.js.map": "/SpinoTech/Taiyo-.AI-assignment.git/static/js/main.dfaeb1ac.js.map"
   },
   "entrypoints": [
     "static/css/main.47fa2607.css",
-    "static/js/main.adbf0322.js"
+    "static/js/main.dfaeb1ac.js"
   ]
 }
