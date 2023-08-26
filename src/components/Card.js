@@ -17,6 +17,7 @@ export default function Card({ detail, updateDetails ,deleteDetails}) {
     const handleSubmit = (e) => {
         e.preventDefault();
         updateDetails(detail.id, contacts);
+        setOpenEditor(false);
     }
     // console.log(detail.id,contacts)
 
